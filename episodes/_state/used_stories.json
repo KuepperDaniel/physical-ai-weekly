@@ -83,6 +83,36 @@
       "url": null,
       "episode": 2,
       "week": "2026-10-16"
+    },
+    {
+      "title": "Google demonstrates an AI-assisted robot-development loop, with measurable simulation-to-reality gains",
+      "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+      "episode": 1,
+      "week": "2026-10-16"
+    },
+    {
+      "title": "Waymo removes invitation barriers in San Antonio, San Diego and Tampa",
+      "url": "https://waymo.com/blog/shorts/sat-sd-tpa/",
+      "episode": 1,
+      "week": "2026-10-16"
+    },
+    {
+      "title": "Symbotic acquires cellumation to make warehouse material flow more software-defined",
+      "url": "https://www.symbotic.com/news/symbotic-announces-acquisition-of-cellumation-advancing-next-generation-sortation-technology-for-the-global-supply-chain/",
+      "episode": 1,
+      "week": "2026-10-16"
+    },
+    {
+      "title": "RoboParty moves RP1 from a humanoid demonstration toward an inspectable development platform",
+      "url": "https://www.humanoidsdaily.com/news/roboparty-rp1-open-source-hardware-motion-policies",
+      "episode": 1,
+      "week": "2026-10-16"
+    },
+    {
+      "title": "Ubitium raises $14 million after first silicon for unified sensing, AI and control",
+      "url": "https://www.ubitium.com/ubitium-raises-14-million-to-build-the-first-universal-processor-for-physical-ai/",
+      "episode": 1,
+      "week": "2026-10-16"
     }
   ]
 }
