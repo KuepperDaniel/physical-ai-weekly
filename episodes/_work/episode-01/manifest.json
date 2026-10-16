@@ -1,0 +1,250 @@
+{
+  "episode_number": 1,
+  "episode_number_padded": "01",
+  "title": "Intelligence Is Not Throughput",
+  "short_description": "New robot benchmarks expose the time and cost of turning reasoning into action, while Symbotic, Ubitium and Waymo pursue different paths toward practical deployment. We examine what separates technical capability from reliable, economically useful work.",
+  "show_notes_html": "<p>This week on Physical AI Weekly, Sarah and Daniel examine the gap between intelligent machines and productive systems—from slow robot agents to warehouse integration, prototype chips and driverless rides.</p><h3>In this episode</h3><ul><li><strong>Robot intelligence meets the clock</strong>: Artificial Analysis reports roughly 30 minutes and $16.36 in inference cost per task for its leading robot-arm agent. Separate Vals AI tests highlight the difficulty of building humanoid controllers from scratch—not a verdict on production robots using specialized motor skills.</li><li><strong>Symbotic buys better handoffs</strong>: The acquisition of cellumation adds programmable package-routing technology to Symbotic’s warehouse systems. Simpler layouts and higher throughput are the promise; measured savings and integration results remain to be established.</li><li><strong>Ubitium’s integrated computing bet</strong>: A $14 million funding round supports a chip architecture designed to combine sensing, AI inference and real-time control. First silicon is a proof of concept, with commercial evaluation units planned for 2027 and performance still awaiting independent validation.</li><li><strong>Waymo opens the enrollment gate</strong>: Anyone can now book autonomous rides in San Antonio, San Diego and Tampa—existing operating markets, not three new city launches. Broader access tests demand and operating capacity, but does not establish profitability.</li></ul><p>A benchmark, an acquisition, a prototype and a live service offer different kinds of evidence. The common test is useful work delivered reliably at an acceptable total cost.</p><h3>What we're watching</h3><ul><li><strong>Robot evaluations that support purchasing decisions</strong>: Repeated trials reporting completion, elapsed time, interventions and cost together.</li><li><strong>Warehouse integration results</strong>: Symbotic’s integration timetable, throughput per square meter, installed cost and maintenance requirements.</li></ul>",
+  "pauseMsDefault": 300,
+  "segments": [
+    {
+      "id": 1,
+      "speaker": "host",
+      "text": "New robot benchmarks put a price on slow intelligence. Symbotic buys programmable package-routing technology, Ubitium funds a chip built to combine sensing and control, and Waymo opens rider access in three existing markets. The commercial question connecting them: when does technical capability become useful, profitable work?",
+      "topic_id": "opening",
+      "pause_after_ms": 300,
+      "fileName": "001-host.mp3"
+    },
+    {
+      "id": 2,
+      "speaker": "host",
+      "text": "Let’s put the evidence to work. Welcome to Physical AI Weekly. I’m Sarah. Daniel, there’s a useful reality check running through this week.",
+      "topic_id": "opening",
+      "pause_after_ms": 300,
+      "fileName": "002-host.mp3"
+    },
+    {
+      "id": 3,
+      "speaker": "expert",
+      "text": "Hello, everyone. I’m Daniel. What I’m looking forward to unpacking is the distance between a machine showing intelligence and a complete system earning its place in an operation.",
+      "topic_id": "opening",
+      "pause_after_ms": 700,
+      "fileName": "003-expert.mp3"
+    },
+    {
+      "id": 4,
+      "speaker": "host",
+      "text": "Start with a robot taking roughly half an hour to do a task. Artificial Analysis reports that kind of average in its new benchmark, alongside more than sixteen dollars per task in inference cost. Is the headline that language models are bad at robotics—or that we’ve been asking the wrong question?",
+      "topic_id": "story-1",
+      "pause_after_ms": 300,
+      "fileName": "004-host.mp3"
+    },
+    {
+      "id": 5,
+      "speaker": "expert",
+      "text": "The second is more useful. Artificial Analysis tested language-model agents on eight tasks using a real robot arm. Its leader scored sixty-nine point four out of a hundred, but averaged roughly thirty minutes and sixteen dollars, thirty-six cents per task. The benchmark also reports a twenty-second human average. That makes speed and cost impossible to ignore. But this is a small task suite, not a verdict on all robot learning, and independent replication hasn’t been established.",
+      "topic_id": "story-1",
+      "pause_after_ms": 300,
+      "fileName": "005-expert.mp3"
+    },
+    {
+      "id": 6,
+      "speaker": "host",
+      "text": "There’s also the separate Vals AI result: no tested model solved any humanoid task. That sounds devastating. What qualification would you insist on before someone used it to cancel a robotics investment?",
+      "topic_id": "story-1",
+      "pause_after_ms": 300,
+      "fileName": "006-host.mp3"
+    },
+    {
+      "id": 7,
+      "speaker": "expert",
+      "text": "Those were simulated tasks, and the agents weren’t given a humanoid balance controller. They had three minutes to construct control software. That’s closer to asking someone to write the bicycle’s balancing system than asking them to ride a bicycle that already works. It tests autonomous controller creation, not a production architecture with learned motor skills underneath a language model. Each task also uses one seed, and repeat runs moved overall scores by about ten points. The two benchmarks aren’t directly comparable.",
+      "topic_id": "story-1",
+      "pause_after_ms": 300,
+      "fileName": "007-expert.mp3"
+    },
+    {
+      "id": 8,
+      "speaker": "host",
+      "text": "So don’t read this as a league table for buying robots. Read it as a warning about architecture. If I’m approving a pilot for the next twelve months, what changes in the purchasing brief?",
+      "topic_id": "story-1",
+      "pause_after_ms": 300,
+      "fileName": "008-host.mp3"
+    },
+    {
+      "id": 9,
+      "speaker": "expert",
+      "text": "Require completion, elapsed time, interventions and cost together, over repeated trials on your task. A success percentage without a clock or cost ledger is insufficient. Artificial Analysis itself calls current direct language-model control too slow and expensive for production. My interpretation is that high-level planning above specialized controllers remains the more credible near-term approach. And that sixteen-dollar figure is inference cost, not a complete installed operating cost. Buyers still need the economics of the whole system before committing beyond a pilot.",
+      "topic_id": "story-1",
+      "pause_after_ms": 300,
+      "fileName": "009-expert.mp3"
+    },
+    {
+      "id": 10,
+      "speaker": "host",
+      "text": "The takeaway: buy useful work, not a reasoning score. That brings us to Symbotic’s acquisition of cellumation, where the proposed improvement isn’t a more articulate robot—it’s a better way to move goods between machines.",
+      "topic_id": "story-1",
+      "pause_after_ms": 700,
+      "fileName": "010-host.mp3"
+    },
+    {
+      "id": 11,
+      "speaker": "expert",
+      "text": "Symbotic announced the acquisition on October thirteenth. Cellumation makes a modular sorting surface with hundreds of independently controlled, omnidirectional cells. Imagine a floor of little powered wheels that can steer a package across the surface, rather than simply carrying everything along one fixed path. The new development is ownership and planned integration into Symbotic’s inbound and outbound robotic cells—not the invention of the conveyor this week.",
+      "topic_id": "story-2",
+      "pause_after_ms": 300,
+      "fileName": "011-expert.mp3"
+    },
+    {
+      "id": 12,
+      "speaker": "host",
+      "text": "Why is that strategically interesting rather than just another component acquisition? If I already have a good picking robot, where could this change the return on the warehouse around it?",
+      "topic_id": "story-2",
+      "pause_after_ms": 300,
+      "fileName": "012-host.mp3"
+    },
+    {
+      "id": 13,
+      "speaker": "expert",
+      "text": "Because the interfaces matter. A robot can pick well and still spend time waiting for the right package, or waiting for somewhere to put it. Programmable routing could make the surrounding cell simpler and use space more effectively. Symbotic expects higher throughput and smaller footprints, but provides no quantified comparative results. So the investment thesis is plausible system improvement, not proven savings. Neither the acquisition price nor validated customer savings was disclosed.",
+      "topic_id": "story-2",
+      "pause_after_ms": 300,
+      "fileName": "013-expert.mp3"
+    },
+    {
+      "id": 14,
+      "speaker": "host",
+      "text": "And cellumation keeps independent customers as well as entering Symbotic’s systems. That seems commercially useful, but potentially awkward for another integrator buying technology now owned by a competitor. What should an operator actually request?",
+      "topic_id": "story-2",
+      "pause_after_ms": 300,
+      "fileName": "014-host.mp3"
+    },
+    {
+      "id": 15,
+      "speaker": "expert",
+      "text": "An integration timetable, measured throughput per square meter, installed cost and maintenance requirements. Compare the complete proposed cell with the alternative—not the routing surface on its own. Independent customers remain part of the business, which could broaden distribution; competing integrators may nevertheless scrutinize supplier dependence. For the next twelve to twenty-four months, this is a concrete procurement conversation. Of this week’s industrial developments, I’d give it the strongest chance of tangible near-term impact, while withholding a payback judgment until those measurements exist.",
+      "topic_id": "story-2",
+      "pause_after_ms": 300,
+      "fileName": "015-expert.mp3"
+    },
+    {
+      "id": 16,
+      "speaker": "host",
+      "text": "The takeaway is that improving the handoff between machines may matter more than improving one machine. Ubitium is making a related integration bet inside the computer itself—combining sensing, inference and real-time control.",
+      "topic_id": "story-2",
+      "pause_after_ms": 700,
+      "fileName": "016-host.mp3"
+    },
+    {
+      "id": 17,
+      "speaker": "expert",
+      "text": "Ubitium announced fourteen million dollars in seed financing on October thirteenth, bringing total seed funding to eighteen million. It also says its first fabricated silicon demonstrates those three workloads on one reconfigurable architecture. Financing is corroborated by company counsel; the technical performance remains company-reported. Commercial evaluation units are planned for twenty twenty-seven. That makes this a funded proof of concept moving toward evaluation, not a production component ready for procurement.",
+      "topic_id": "story-3",
+      "pause_after_ms": 300,
+      "fileName": "017-expert.mp3"
+    },
+    {
+      "id": 18,
+      "speaker": "host",
+      "text": "Explain why combining those workloads is valuable. A senior buyer might reasonably ask: if the artificial intelligence runs quickly enough, haven’t we solved the computing problem?",
+      "topic_id": "story-3",
+      "pause_after_ms": 300,
+      "fileName": "018-host.mp3"
+    },
+    {
+      "id": 19,
+      "speaker": "expert",
+      "text": "Not necessarily. Recognizing something and reacting on time are different requirements. Think of a kitchen that can produce a complicated dish quickly but can’t reliably get every course to the table together. Robot computing needs coordinated sensing, decisions and control deadlines. Ubitium’s programmable array reallocates processing resources across workloads. That could simplify integration, but the important question is whether control stays predictable while other work is running—not simply how fast an isolated neural network completes.",
+      "topic_id": "story-3",
+      "pause_after_ms": 300,
+      "fileName": "019-expert.mp3"
+    },
+    {
+      "id": 20,
+      "speaker": "host",
+      "text": "So investors are funding the possibility of simpler engineering, not a demonstrated cost advantage. What would turn that possibility into evidence—and should an operations team do anything now?",
+      "topic_id": "story-3",
+      "pause_after_ms": 300,
+      "fileName": "020-host.mp3"
+    },
+    {
+      "id": 21,
+      "speaker": "expert",
+      "text": "Watch for usable compiler tools, reproducible power and latency measurements, and predictable control timing under concurrent workloads. Initial applications target radar and audio processing, which is narrower than a universal robot-computing rollout. Lower power, cost and integration effort are objectives, not independently benchmarked advantages. Operations teams can prepare an evaluation workload if this fits their roadmap, but shouldn’t make a near-term deployment depend on it. For investors, the announced twenty twenty-seven evaluation units are a diligence milestone; production economics remain undisclosed.",
+      "topic_id": "story-3",
+      "pause_after_ms": 300,
+      "fileName": "021-expert.mp3"
+    },
+    {
+      "id": 22,
+      "speaker": "host",
+      "text": "The takeaway: integrated computing is an option to evaluate, not savings to book. Waymo takes us to the other end of the maturity spectrum, where the new evidence is public service access rather than prototype hardware.",
+      "topic_id": "story-3",
+      "pause_after_ms": 700,
+      "fileName": "022-host.mp3"
+    },
+    {
+      "id": 23,
+      "speaker": "expert",
+      "text": "On October fourteenth, Waymo announced that anyone could book fully autonomous rides in San Antonio, San Diego and Tampa, including service at San Antonio International Airport. These are existing operating markets moving to open enrollment—not three first-time city launches. Waymo reports hundreds of thousands of riders across those cities since service began earlier in the year. That’s a company-reported adoption figure, not evidence of profitability.",
+      "topic_id": "story-4",
+      "pause_after_ms": 300,
+      "fileName": "023-expert.mp3"
+    },
+    {
+      "id": 24,
+      "speaker": "host",
+      "text": "Removing the enrollment gate is meaningful, though. It exposes the operation to broader demand. What does it tell us about deployment readiness, and what does it leave completely unanswered?",
+      "topic_id": "story-4",
+      "pause_after_ms": 300,
+      "fileName": "024-host.mp3"
+    },
+    {
+      "id": 25,
+      "speaker": "expert",
+      "text": "It establishes wider customer access to an operating service. It doesn’t establish a new driving architecture or tell us fleet size, geographic coverage, remote-assistance frequency or weather limitations. Commercially, open access creates a stronger test of sustained demand and operating capacity. Airport journeys could support repeatable, valuable demand, but that is an interpretation. Without utilization, passenger waits and operating costs, we can’t infer attractive margins from availability alone.",
+      "topic_id": "story-4",
+      "pause_after_ms": 300,
+      "fileName": "025-expert.mp3"
+    },
+    {
+      "id": 26,
+      "speaker": "host",
+      "text": "For a leader deciding where to place attention over the next year, then, the useful question isn’t how many cities appear on a map. It’s whether access translates into dependable service people repeatedly choose.",
+      "topic_id": "story-4",
+      "pause_after_ms": 300,
+      "fileName": "026-host.mp3"
+    },
+    {
+      "id": 27,
+      "speaker": "expert",
+      "text": "Yes. Track actual availability, passenger waiting times, airport usage, interventions and vehicle utilization. Those measures would help distinguish repeatable commercialization from a broader invitation to try the service. The paying rider tests demand; the operator still has to establish the economics of supplying it. For investors, I’d put more weight on consistent service and productive vehicle use than another market announcement. The announcement doesn’t supply the cost evidence needed to go further.",
+      "topic_id": "story-4",
+      "pause_after_ms": 300,
+      "fileName": "027-expert.mp3"
+    },
+    {
+      "id": 28,
+      "speaker": "host",
+      "text": "The takeaway: open access is a commercialization milestone, not a margin statement. Bringing these developments together, the common mistake would be to treat a benchmark, an acquisition, a prototype and a live service as equivalent evidence of progress.",
+      "topic_id": "story-4",
+      "pause_after_ms": 700,
+      "fileName": "028-host.mp3"
+    },
+    {
+      "id": 29,
+      "speaker": "expert",
+      "text": "They answer different questions. The benchmarks expose architectural limits. Symbotic offers a near-term integration hypothesis. Ubitium offers a longer-duration computing option. Waymo offers an expanding test of service economics. In each case, fund or buy against the next piece of evidence—not the broadest promise. The unifying measure is useful work delivered reliably, at an acceptable total cost.",
+      "topic_id": "closing",
+      "pause_after_ms": 300,
+      "fileName": "029-expert.mp3"
+    },
+    {
+      "id": 30,
+      "speaker": "host",
+      "text": "Two things to watch: repeated robot tests reporting completion, time and cost together; and measured throughput, installed cost and maintenance requirements from Symbotic’s integration. Those would move the conversation from capability toward an operating decision. Stay grounded. Stay ahead. This is Physical AI Weekly.",
+      "topic_id": "closing",
+      "pause_after_ms": 300,
+      "fileName": "030-host.mp3"
+    }
+  ]
+}
