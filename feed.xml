@@ -13,5 +13,20 @@
 <itunes:category text="Technology"/>
 <itunes:image href="https://KuepperDaniel.github.io/physical-ai-weekly/artwork/cover.jpg"/>
 
+
+<item>
+<title>Intelligence Is Not Throughput</title>
+<description>New robot benchmarks expose the time and cost of turning reasoning into action, while Symbotic, Ubitium and Waymo pursue different paths toward practical deployment. We examine what separates technical capability from reliable, economically useful work.</description>
+<content:encoded><![CDATA[
+<p>This week on Physical AI Weekly, Sarah and Daniel examine the gap between intelligent machines and productive systems—from slow robot agents to warehouse integration, prototype chips and driverless rides.</p><h3>In this episode</h3><ul><li><strong>Robot intelligence meets the clock</strong>: Artificial Analysis reports roughly 30 minutes and $16.36 in inference cost per task for its leading robot-arm agent. Separate Vals AI tests highlight the difficulty of building humanoid controllers from scratch—not a verdict on production robots using specialized motor skills.</li><li><strong>Symbotic buys better handoffs</strong>: The acquisition of cellumation adds programmable package-routing technology to Symbotic’s warehouse systems. Simpler layouts and higher throughput are the promise; measured savings and integration results remain to be established.</li><li><strong>Ubitium’s integrated computing bet</strong>: A $14 million funding round supports a chip architecture designed to combine sensing, AI inference and real-time control. First silicon is a proof of concept, with commercial evaluation units planned for 2027 and performance still awaiting independent validation.</li><li><strong>Waymo opens the enrollment gate</strong>: Anyone can now book autonomous rides in San Antonio, San Diego and Tampa—existing operating markets, not three new city launches. Broader access tests demand and operating capacity, but does not establish profitability.</li></ul><p>A benchmark, an acquisition, a prototype and a live service offer different kinds of evidence. The common test is useful work delivered reliably at an acceptable total cost.</p><h3>What we're watching</h3><ul><li><strong>Robot evaluations that support purchasing decisions</strong>: Repeated trials reporting completion, elapsed time, interventions and cost together.</li><li><strong>Warehouse integration results</strong>: Symbotic’s integration timetable, throughput per square meter, installed cost and maintenance requirements.</li></ul>
+]]></content:encoded>
+<pubDate>Fri, 16 Oct 2026 15:27:11 GMT</pubDate>
+<guid isPermaLink="false">physical-ai-weekly-episode-01</guid>
+<enclosure url="https://KuepperDaniel.github.io/physical-ai-weekly/episodes/episode-01.mp3" length="5574429" type="audio/mpeg"/>
+<itunes:duration>00:10:30</itunes:duration>
+<itunes:episode>1</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:explicit>false</itunes:explicit>
+</item>
 </channel>
 </rss>
