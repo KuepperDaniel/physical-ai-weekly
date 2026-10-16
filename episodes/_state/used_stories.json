@@ -1,0 +1,88 @@
+{
+  "stories": [
+    {
+      "title": "Tesla Optimus manufacturing scaling challenge (hands, assembly complexity, supply chains)",
+      "url": null,
+      "episode": 1,
+      "week": "2026-10-01"
+    },
+    {
+      "title": "Carnegie Mellon and Siemens research on humanoid safe stoppability around people",
+      "url": null,
+      "episode": 1,
+      "week": "2026-10-01"
+    },
+    {
+      "title": "Light-O1 learning physical-action knowledge from large-scale human video (robotics data bottleneck)",
+      "url": null,
+      "episode": 1,
+      "week": "2026-10-01"
+    },
+    {
+      "title": "CMU LAMP research on multi-robot coordination for shared object manipulation",
+      "url": null,
+      "episode": 1,
+      "week": "2026-10-01"
+    },
+    {
+      "title": "Amazon robotics scale as a benchmark for specialized automation vs general-purpose humanoids",
+      "url": null,
+      "episode": 1,
+      "week": "2026-10-01"
+    },
+    {
+      "title": "Daimon Robotics debuts tactile-grounded Physical AI via Friendship Bracelet stringing at IROS 2026",
+      "url": null,
+      "episode": 2,
+      "week": "2026-10-16"
+    },
+    {
+      "title": "H2L's BodySharing Physical AI achieves 95% task success with just 15-minutes of human proprioception data",
+      "url": null,
+      "episode": 2,
+      "week": "2026-10-16"
+    },
+    {
+      "title": "Axonex AI Group joins FLAIR's Embodied AI Applications Hub and launches education humanoid TOMO",
+      "url": null,
+      "episode": 2,
+      "week": "2026-10-16"
+    },
+    {
+      "title": "Cerence AI and Geely expand conversational AI into embodied robotics at Paris Motor Show",
+      "url": null,
+      "episode": 2,
+      "week": "2026-10-16"
+    },
+    {
+      "title": "AWS open-sources Physical AI toolchain based on NVIDIA's robotics stack",
+      "url": null,
+      "episode": 2,
+      "week": "2026-10-16"
+    },
+    {
+      "title": "Volvo's Autonomous Truck Improves Self-Learning with Reinforcement Methods",
+      "url": null,
+      "episode": 2,
+      "week": "2026-10-16"
+    },
+    {
+      "title": "NeuRa Develops Advanced Material Recognition for Robots Using Tactile Sensors",
+      "url": null,
+      "episode": 2,
+      "week": "2026-10-16"
+    },
+    {
+      "title": "Open-Sourcing of QuantNav for Improved Robot Navigation",
+      "url": null,
+      "episode": 2,
+      "week": "2026-10-16"
+    },
+    {
+      "title": "Self-Repairing Robots: New Sensor Technology Developed by Protosense",
+      "url": null,
+      "episode": 2,
+      "week": "2026-10-16"
+    }
+  ]
+}
