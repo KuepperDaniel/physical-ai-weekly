@@ -83,6 +83,42 @@
       "url": null,
       "episode": 2,
       "week": "2026-10-16"
+    },
+    {
+      "title": "NVIDIA expands Isaac from robot training into runtime deployment",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data/",
+      "episode": 1,
+      "week": "2026-10-22"
+    },
+    {
+      "title": "Schaeffler opens a humanoid component factory with six humanoids on the line",
+      "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88222851",
+      "episode": 1,
+      "week": "2026-10-22"
+    },
+    {
+      "title": "Dream Labs launches cross-robot model access alongside a $90 million seed round",
+      "url": "https://kindredventures.com/announcement/dream-labs-building-the-brain-for-everyday-robots/",
+      "episode": 1,
+      "week": "2026-10-22"
+    },
+    {
+      "title": "Teradyne and Sereact formalize an industrial AI partnership with live returns-handling deployments",
+      "url": "https://www.universal-robots.com/news-and-media/news-center/teradyne-robotics-and-sereact-partner-to-scale-physical-ai-solutions-for-retail-and-logistics/",
+      "episode": 1,
+      "week": "2026-10-22"
+    },
+    {
+      "title": "Rapyuta starts automated storage operations at two Nippon Express sites",
+      "url": "https://www.rapyuta-robotics.com/ja/2026/10/21/rapyuta-asrs-nx/",
+      "episode": 1,
+      "week": "2026-10-22"
+    },
+    {
+      "title": "Agility names Nyobolt as Digit 5's fast-charging battery supplier",
+      "url": "https://www.agilityrobotics.com/content/agility-robotics-selects-nyobolt-as-its-ultra-fast-charging-battery-technology-partner-for-digit-5",
+      "episode": 1,
+      "week": "2026-10-22"
     }
   ]
 }
