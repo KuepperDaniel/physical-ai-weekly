@@ -85,69 +85,39 @@
       "week": "2026-10-16"
     },
     {
-      "title": "New robotics benchmarks expose the gap between language-model intelligence and practical robot control",
-      "url": "https://artificialanalysis.ai/articles/aa-robotics?aa-robotics-run-task=place-crocodile-in-rectangle",
-      "episode": 1,
-      "week": "2026-10-16"
-    },
-    {
-      "title": "Symbotic acquires cellumation to integrate software-controlled material flow into warehouse robotics",
-      "url": "https://www.symbotic.com/news/symbotic-announces-acquisition-of-cellumation-advancing-next-generation-sortation-technology-for-the-global-supply-chain/",
-      "episode": 1,
-      "week": "2026-10-16"
-    },
-    {
-      "title": "Waymo removes rider-access restrictions in San Antonio, San Diego and Tampa",
-      "url": "https://blog.waymo.com/blog/shorts/sat-sd-tpa/",
-      "episode": 1,
-      "week": "2026-10-16"
-    },
-    {
-      "title": "NEURA introduces a multisensory foundation model spanning five robot embodiments",
-      "url": "https://neura-robotics.com/neura-robotics-introduces-neuron-ai/",
-      "episode": 1,
-      "week": "2026-10-16"
-    },
-    {
-      "title": "Ubitium raises $14 million after first silicon combines sensing, inference and control",
-      "url": "https://www.ubitium.com/ubitium-raises-14-million-to-build-the-first-universal-processor-for-physical-ai/",
-      "episode": 1,
-      "week": "2026-10-16"
-    },
-    {
       "title": "NVIDIA expands Isaac from robot training into integrated runtime and reference hardware",
       "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data/",
-      "episode": 2,
+      "episode": 1,
       "week": "2026-10-22"
     },
     {
       "title": "Eka Robotics raises $150 million for force-aware manipulation",
       "url": "https://ekarobotics.com/blog/eka-robotics-raises-150m-to-build-superhuman-intelligence-for-the-physical-world",
-      "episode": 2,
+      "episode": 1,
       "week": "2026-10-22"
     },
     {
       "title": "Schaeffler opens Taicang line where six humanoids assemble robot components",
       "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88222851",
-      "episode": 2,
+      "episode": 1,
       "week": "2026-10-22"
     },
     {
       "title": "AMD releases optimizations cutting simulated robot-policy inference latency approximately 25-fold",
       "url": "https://rocm.blogs.amd.com/artificial-intelligence/faster-action-models/README.html",
-      "episode": 2,
+      "episode": 1,
       "week": "2026-10-22"
     },
     {
       "title": "beRobox puts an ultrasonic protective zone directly on a palletizing arm",
       "url": "https://www.berobox.com/de/news/berobox-unveils-industry-first-%223d-dynamic-safety%22-at-pack-expo-2026",
-      "episode": 2,
+      "episode": 1,
       "week": "2026-10-22"
     },
     {
       "title": "AGCO signs a commercial agreement for a 2027 Digit manufacturing pilot",
       "url": "https://agco.gcs-web.com/news-releases/news-release-details/agco-and-agility-robotics-advance-smart-manufacturing-humanoid",
-      "episode": 2,
+      "episode": 1,
       "week": "2026-10-22"
     }
   ]
