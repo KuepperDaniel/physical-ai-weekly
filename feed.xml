@@ -17,5 +17,20 @@
 
 
 
+
+<item>
+<title>From Robot Brains to Work</title>
+<description>NVIDIA and Dream Labs expand reusable robot software, while Schaeffler, Sereact and Rapyuta bring automation onto factory and warehouse floors. We examine what separates broader capabilities from dependable industrial capacity—and which operating results remain missing.</description>
+<content:encoded><![CDATA[
+<p>Smarter robot software is only part of the story. This week on Physical AI Weekly, Sarah and Daniel explore the integration, operating evidence and unanswered economic questions behind robots moving from demonstrations into industrial work.</p><h3>In this episode</h3><ul><li><strong>NVIDIA connects training to operation</strong>: Isaac OS adds a runtime linking models, sensors, controls and hardware. The potential is less integration work, but production reliability, deployment savings and completed safety certification are not established by the announcement.</li><li><strong>Dream Labs opens cross-robot experimentation</strong>: Dream API offers access to a model demonstrated on unfamiliar two-arm robots. Its advertised starting price covers model access, not a complete automation system, and the research beta is not validated for safety-critical use.</li><li><strong>Humanoids make robot components</strong>: Schaeffler reports six humanoids across five stations at its new Taicang facility. The operating line creates a potential feedback loop between component engineering and factory use, but output, intervention rates and payback remain undisclosed.</li><li><strong>Standard arms tackle returns</strong>: Teradyne Robotics and Sereact formalize a partnership backed by vendor-reported shipments and named returns-handling sites serving CEVA Logistics and Zalando. Hundreds of shipped arms does not mean hundreds of dual-arm cells, and customer-confirmed performance remains a key missing measure.</li><li><strong>Warehouse automation keeps evolving after installation</strong>: Rapyuta's storage system is operating at two Nippon Express locations, with direct customer confirmation. Ongoing inventory-placement and batching adjustments show why installation and optimized operation are different milestones.</li></ul><p>The connecting theme is integration—not robot appearance. Research access, vendor-reported deployments and customer-confirmed operation represent different levels of evidence, and none yet provides a complete, independently validated economic case.</p><h3>What we're watching</h3><ul><li><strong>Returns-handling performance</strong>: Customer-confirmed throughput, intervention rates and exact operating cell counts at the named sites.</li><li><strong>Stabilized warehouse productivity</strong>: Results at Nippon Express after inventory placement and order batching have been tuned.</li></ul>
+]]></content:encoded>
+<pubDate>Thu, 22 Oct 2026 16:38:19 GMT</pubDate>
+<guid isPermaLink="false">physical-ai-weekly-episode-01</guid>
+<enclosure url="https://KuepperDaniel.github.io/physical-ai-weekly/episodes/episode-01.mp3" length="6343413" type="audio/mpeg"/>
+<itunes:duration>00:11:59</itunes:duration>
+<itunes:episode>1</itunes:episode>
+<itunes:episodeType>full</itunes:episodeType>
+<itunes:explicit>false</itunes:explicit>
+</item>
 </channel>
 </rss>
