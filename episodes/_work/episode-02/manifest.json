@@ -1,0 +1,378 @@
+{
+  "episode_number": 2,
+  "episode_number_padded": "02",
+  "title": "From Robot Trials to Industrial Commitments",
+  "short_description": "Walmart committed approximately $6 billion to expand Symbotic automation across 25 U.S. distribution centers, while Aeon opened an integrated robotic logistics operation in Japan. For industrial companies, the competitive challenge is shifting toward coordinating whole workflows and turning commitments into reliable operating capacity. Produced with AI: Sarah and Daniel are AI-generated voices, and the research and script are written by AI from public sources.",
+  "show_notes_html": "<p><em>Produced with AI: Sarah and Daniel are AI-generated voices, and the research and script are written by AI from public sources.</em></p><p>This week on Physical AI Weekly, major buyers expand their automation commitments, new providers offer industrial capacity as a service, and governments reshape the conditions for deployment. The common business challenge is making robots work as part of a complete operation.</p><h3>In this episode</h3><ul><li><strong>Aeon puts coordination into operation</strong>: Aeon and Mujin launched a Japanese distribution operation with 11 robot arms and more than 80 automated vehicles serving around 200 stores. For warehouse leaders, sequencing equipment and people across the workflow belongs at the center of automation design.</li><li><strong>Walmart commits approximately $6 billion</strong>: Walmart expanded its Symbotic agreement with an initial multiyear spending commitment covering added capabilities across 25 U.S. regional distribution centers. This raises the competitive stakes for integrated logistics, with implementation determining when committed capital becomes operating value.</li><li><strong>GXO takes humanoids to more sites</strong>: GXO and Agility plan to begin deploying Digit at two additional fulfillment sites in early 2027. For operators managing warehouse networks, repeatable installation and ongoing support are becoming central purchasing criteria.</li><li><strong>SAP and Intel connect requests to robot work</strong>: A proof of concept at Intel’s Chengdu site turns SAP warehouse tasks into robot transport missions and returns completion information to the business system. Operations leaders should make inventory accuracy and exception handling part of the automation project from the start.</li><li><strong>Machenta demonstrates one-example teaching</strong>: Machenta announced $40 million in seed funding and showed a three-robot assembly task taught in about two minutes, supported by vendor-run demonstrations and simple tests. If sustained production performance follows, manufacturers with frequently changing products could reduce repeated engineering work.</li><li><strong>Foundry offers assembly capacity as a service</strong>: Foundry Robotics announced $100 million in funding, a 130,000-square-foot assembly facility and an acquisition adding remote robot-control capability. Manufacturers gain another route to flexible capacity, shifting equipment ownership and utilization responsibility toward the provider.</li><li><strong>Bedrock expands autonomous excavation</strong>: Bedrock raised $600 million, named Haydon as a deployment partner and disclosed contractor contracts spanning seven states, while operating performance remains principally company-reported. Contractors can pursue autonomy through existing equipment, making field support and fleet integration central to the buying decision.</li><li><strong>ANYbotics begins hazardous-area deliveries</strong>: ANYbotics reports customer shipments of its explosion-protected ANYmal X inspection robot following early-access testing that began in 2023. Plant leaders should match the delivered machine’s current certification to the exact operating area before introducing robotic inspection rounds.</li><li><strong>U.S. import negotiations create sourcing exposure</strong>: The White House ordered negotiations covering robotics, industrial machinery and components, with a progress update due within 180 days and potential trade restrictions ahead. Industrial companies should assess exposure across both automation projects and spare-parts supply.</li><li><strong>South Korea broadens factory adoption support</strong>: South Korea announced more than ₩5 trillion in smart-manufacturing support through 2030, targeting digital transformation at 30,000 smaller manufacturers, with annual funding subject to approval. For automation suppliers, the strategy could widen the customer base by strengthening implementation capacity inside smaller factories.</li></ul><p>The strongest signals this week concern whole workflows and the organizations responsible for delivering them. Integration, field support and implementation skills will determine which commitments become dependable industrial capacity.</p><h3>What we're watching</h3><ul><li><strong>Walmart and Symbotic execution</strong>: Site acceptance milestones will show how the approximately $6 billion commitment translates into operating capability.</li></ul>",
+  "pauseMsDefault": 300,
+  "segments": [
+    {
+      "id": 1,
+      "speaker": "host",
+      "text": "Aeon has opened a Japanese distribution operation coordinating eleven robot arms and more than eighty automated vehicles. This week, the bigger story is how robots become part of an operating business.",
+      "topic_id": "opening",
+      "pause_after_ms": 300,
+      "fileName": "001-host.mp3"
+    },
+    {
+      "id": 2,
+      "speaker": "host",
+      "text": "Let’s get into it. Welcome to Physical AI Weekly. I’m Sarah. Daniel, over to you.",
+      "topic_id": "opening",
+      "pause_after_ms": 300,
+      "fileName": "002-host.mp3"
+    },
+    {
+      "id": 3,
+      "speaker": "expert",
+      "text": "Hello, I’m Daniel. There’s substantial movement from buyers this week.",
+      "topic_id": "opening",
+      "pause_after_ms": 700,
+      "fileName": "003-expert.mp3"
+    },
+    {
+      "id": 4,
+      "speaker": "host",
+      "text": "Before we start, a quick note: to spare you our German accents, the voices you're hearing are AI-generated.",
+      "topic_id": "opening",
+      "pause_after_ms": 300,
+      "fileName": "004-host.mp3"
+    },
+    {
+      "id": 5,
+      "speaker": "host",
+      "text": "Aeon’s new operation serves around two hundred stores. What work has actually changed?",
+      "topic_id": "story-7",
+      "pause_after_ms": 300,
+      "fileName": "005-host.mp3"
+    },
+    {
+      "id": 6,
+      "speaker": "expert",
+      "text": "Aeon and Mujin started full operations at Kawaguchi this week, linking store-specific sorting with loading different cases together. Software coordinates the arms, vehicles and workers, including the order in which cases reach loading. Customer confirmation and independent site reporting establish that this is an operating installation.",
+      "topic_id": "story-7",
+      "pause_after_ms": 300,
+      "fileName": "006-expert.mp3"
+    },
+    {
+      "id": 7,
+      "speaker": "host",
+      "text": "So the advance is coordinating the flow through the building. Where do people fit?",
+      "topic_id": "story-7",
+      "pause_after_ms": 300,
+      "fileName": "007-host.mp3"
+    },
+    {
+      "id": 8,
+      "speaker": "expert",
+      "text": "Human picking remains part of the operation. Aeon also says automation should reflect each site’s characteristics. The new capability connects sorting and mixed-case loading in one working system. For grocery logistics, that puts sequencing and coordination at the center of automation design, alongside the robots themselves.",
+      "topic_id": "story-7",
+      "pause_after_ms": 300,
+      "fileName": "008-expert.mp3"
+    },
+    {
+      "id": 9,
+      "speaker": "host",
+      "text": "That integrated approach also explains the scale of Walmart’s new commitment to Symbotic: approximately six billion dollars over several years.",
+      "topic_id": "story-1",
+      "pause_after_ms": 700,
+      "fileName": "009-host.mp3"
+    },
+    {
+      "id": 10,
+      "speaker": "expert",
+      "text": "The expanded agreement adds capabilities across twenty-five U.S. regional distribution centers. It targets inventory management for e-commerce, storage capacity and replenishment. Walmart is extending an established automation relationship into more of its distribution workflow, with an initial spending commitment large enough to make this the week’s biggest commercial move.",
+      "topic_id": "story-1",
+      "pause_after_ms": 300,
+      "fileName": "010-expert.mp3"
+    },
+    {
+      "id": 11,
+      "speaker": "host",
+      "text": "Does that mean twenty-five more automated warehouses are now running?",
+      "topic_id": "story-1",
+      "pause_after_ms": 300,
+      "fileName": "011-host.mp3"
+    },
+    {
+      "id": 12,
+      "speaker": "expert",
+      "text": "No. This is an expanded commercial commitment, not twenty-five newly completed installations. Walmart’s joint announcement and Reuters reporting establish the agreement; operating returns are still unverified. The important change is the breadth and scale of the buyer’s commitment. For Symbotic, it strengthens its position as an integrated logistics infrastructure supplier.",
+      "topic_id": "story-1",
+      "pause_after_ms": 300,
+      "fileName": "012-expert.mp3"
+    },
+    {
+      "id": 13,
+      "speaker": "host",
+      "text": "Six billion dollars backs a broader distribution system. For warehouse operators, the competitive question increasingly concerns how much of the workflow can be coordinated. GXO offers another purchasing signal, this time for humanoids.",
+      "topic_id": "story-10",
+      "pause_after_ms": 700,
+      "fileName": "013-host.mp3"
+    },
+    {
+      "id": 14,
+      "speaker": "expert",
+      "text": "GXO and Agility announced plans to bring Digit to two additional e-commerce fulfillment sites, in North Carolina and Tennessee, starting in early 2027. The relationship already includes tote-to-conveyor work in Georgia and uses a multiyear robots-as-a-service agreement. That gives this expansion a commercial customer behind it.",
+      "topic_id": "story-10",
+      "pause_after_ms": 300,
+      "fileName": "014-expert.mp3"
+    },
+    {
+      "id": 15,
+      "speaker": "host",
+      "text": "What makes two more sites meaningful for someone running a warehouse network?",
+      "topic_id": "story-10",
+      "pause_after_ms": 300,
+      "fileName": "015-host.mp3"
+    },
+    {
+      "id": 16,
+      "speaker": "expert",
+      "text": "Replication tests whether a task can become a repeatable service across buildings. GXO directly confirms the expansion, although the additional sites are future installations. The new development is a customer committing to two more locations. That moves humanoid procurement toward a network-level service decision, with installation and ongoing support becoming central.",
+      "topic_id": "story-10",
+      "pause_after_ms": 300,
+      "fileName": "016-expert.mp3"
+    },
+    {
+      "id": 17,
+      "speaker": "host",
+      "text": "Replicating robots also means connecting their work to business records. SAP and Intel have demonstrated that link inside an Intel operating site.",
+      "topic_id": "story-9",
+      "pause_after_ms": 700,
+      "fileName": "017-host.mp3"
+    },
+    {
+      "id": 18,
+      "speaker": "expert",
+      "text": "Their proof of concept turns warehouse tasks from SAP into autonomous transport missions, then sends status and completion information back. In plain language, the warehouse’s business system requests a physical move and receives confirmation. That matters when inventory records and order priorities need to stay aligned with what robots actually do.",
+      "topic_id": "story-9",
+      "pause_after_ms": 300,
+      "fileName": "018-expert.mp3"
+    },
+    {
+      "id": 19,
+      "speaker": "host",
+      "text": "Could that make adding robots less of a separate integration project?",
+      "topic_id": "story-9",
+      "pause_after_ms": 300,
+      "fileName": "019-host.mp3"
+    },
+    {
+      "id": 20,
+      "speaker": "expert",
+      "text": "That is the intended direction, including support for multiple robot suppliers. Both participants document the demonstration, but repeatable cross-site integration has yet to be established. What they have shown is a complete request-to-completion loop. For operations leaders, transaction accuracy and exception handling belong inside the automation project from the start.",
+      "topic_id": "story-9",
+      "pause_after_ms": 300,
+      "fileName": "020-expert.mp3"
+    },
+    {
+      "id": 21,
+      "speaker": "host",
+      "text": "Connecting a robot is one commissioning burden; teaching its next job is another. Machenta says it can do that from a single demonstration.",
+      "topic_id": "story-3",
+      "pause_after_ms": 700,
+      "fileName": "021-host.mp3"
+    },
+    {
+      "id": 22,
+      "speaker": "expert",
+      "text": "Machenta introduced a system that uses an example of a task to guide the robot immediately, without a separate training run for that job. Demonstrations include packaging, cable sorting and machine tending. It also showed a three-robot assembly demonstration taught in about two minutes and announced forty million dollars in seed funding.",
+      "topic_id": "story-3",
+      "pause_after_ms": 300,
+      "fileName": "022-expert.mp3"
+    },
+    {
+      "id": 23,
+      "speaker": "host",
+      "text": "Two minutes sounds compelling. How close is that to changing a production line?",
+      "topic_id": "story-3",
+      "pause_after_ms": 300,
+      "fileName": "023-host.mp3"
+    },
+    {
+      "id": 24,
+      "speaker": "expert",
+      "text": "The evidence comes from vendor-run demonstrations and simple one-hour tests, so sustained industrial reliability is the central uncertainty. What is new is using one example as an immediate instruction for a different task. If that carries into production, high-mix manufacturers could shift more task teaching toward operators and reduce repeated engineering work.",
+      "topic_id": "story-3",
+      "pause_after_ms": 300,
+      "fileName": "024-expert.mp3"
+    },
+    {
+      "id": 25,
+      "speaker": "host",
+      "text": "Another response to that engineering burden is to buy manufacturing capacity. Foundry Robotics is building a business around that model.",
+      "topic_id": "story-6",
+      "pause_after_ms": 700,
+      "fileName": "025-host.mp3"
+    },
+    {
+      "id": 26,
+      "speaker": "expert",
+      "text": "Foundry announced a hundred-million-dollar funding round and a hundred-and-thirty-thousand-square-foot assembly facility. It combines robotic assembly cells with manufacturing specialists, selling manufacturing as a service. Its transaction adviser also confirmed the acquisition of Avea Robotics, which provides software for remote robot control.",
+      "topic_id": "story-6",
+      "pause_after_ms": 300,
+      "fileName": "026-expert.mp3"
+    },
+    {
+      "id": 27,
+      "speaker": "host",
+      "text": "How does that change the decision for a manufacturer with fluctuating demand?",
+      "topic_id": "story-6",
+      "pause_after_ms": 300,
+      "fileName": "027-host.mp3"
+    },
+    {
+      "id": 28,
+      "speaker": "expert",
+      "text": "It offers a way to buy assembly capacity while the provider takes responsibility for equipment ownership and utilization. The financing and acquisition are documented, while repeatable customer production performance is still unclear. Foundry’s move combines a factory, capital and remote-control capability behind outsourced robotic assembly. The strategic shift is where integration and capacity risk sit.",
+      "topic_id": "story-6",
+      "pause_after_ms": 300,
+      "fileName": "028-expert.mp3"
+    },
+    {
+      "id": 29,
+      "speaker": "host",
+      "text": "Equipment ownership matters on construction sites too. Bedrock’s approach keeps contractors’ existing machines and adds autonomy.",
+      "topic_id": "story-4",
+      "pause_after_ms": 700,
+      "fileName": "029-host.mp3"
+    },
+    {
+      "id": 30,
+      "speaker": "expert",
+      "text": "Bedrock raised six hundred million dollars, named Haydon as a deployment partner for a remote Texas site, and disclosed additional contractor contracts spanning seven states. Its current commercial focus is excavators fitted with a retrofit system. The new capital supports field operations as well as the technology.",
+      "topic_id": "story-4",
+      "pause_after_ms": 300,
+      "fileName": "030-expert.mp3"
+    },
+    {
+      "id": 31,
+      "speaker": "host",
+      "text": "What does the retrofit approach mean for contractors managing large fleets?",
+      "topic_id": "story-4",
+      "pause_after_ms": 300,
+      "fileName": "031-host.mp3"
+    },
+    {
+      "id": 32,
+      "speaker": "expert",
+      "text": "It creates a route to autonomy using equipment they already own. The financing is corroborated by an investor, but operating performance remains principally company- and investor-reported. This week brings substantial funding and a wider contract footprint. For contractors, autonomous excavation is becoming a field-service and fleet-integration proposition, with support on remote sites part of the offering.",
+      "topic_id": "story-4",
+      "pause_after_ms": 300,
+      "fileName": "032-expert.mp3"
+    },
+    {
+      "id": 33,
+      "speaker": "host",
+      "text": "Remote industrial work also includes hazardous inspection. ANYbotics says customer shipments of its explosion-protected ANYmal X have begun.",
+      "topic_id": "story-8",
+      "pause_after_ms": 700,
+      "fileName": "033-host.mp3"
+    },
+    {
+      "id": 34,
+      "speaker": "expert",
+      "text": "The four-legged inspection robot is intended for process areas where explosive atmospheres restrict ordinary electrical equipment. These deliveries follow early-access testing that began in 2023. The potential operating benefit is more repeatable inspection rounds with less human exposure in hazardous areas.",
+      "topic_id": "story-8",
+      "pause_after_ms": 300,
+      "fileName": "034-expert.mp3"
+    },
+    {
+      "id": 35,
+      "speaker": "host",
+      "text": "Can a plant treat explosion protection as blanket permission to deploy it?",
+      "topic_id": "story-8",
+      "pause_after_ms": 300,
+      "fileName": "035-host.mp3"
+    },
+    {
+      "id": 36,
+      "speaker": "expert",
+      "text": "Approval covers specified gas environments and excludes explosive dust and hydrogen. Shipments are vendor-reported, and its documentation still describes an international certification audit as pending. The milestone is customer delivery after years of testing. For a plant leader, the deployment decision starts with matching the delivered machine’s current certification to the exact operating area.",
+      "topic_id": "story-8",
+      "pause_after_ms": 300,
+      "fileName": "036-expert.mp3"
+    },
+    {
+      "id": 37,
+      "speaker": "host",
+      "text": "Permission and sourcing can shape deployment as much as capability. In the United States, the government has ordered negotiations over robotics and industrial machinery imports.",
+      "topic_id": "story-2",
+      "pause_after_ms": 700,
+      "fileName": "037-host.mp3"
+    },
+    {
+      "id": 38,
+      "speaker": "expert",
+      "text": "The White House directive covers machinery and components as well as complete robots, with a progress update required within a hundred and eighty days. It imposed no immediate new tariffs. Tariffs, quotas, fees and other remedies remain possible outcomes of the process.",
+      "topic_id": "story-2",
+      "pause_after_ms": 300,
+      "fileName": "038-expert.mp3"
+    },
+    {
+      "id": 39,
+      "speaker": "host",
+      "text": "So should a factory change its project budget today?",
+      "topic_id": "story-2",
+      "pause_after_ms": 300,
+      "fileName": "039-host.mp3"
+    },
+    {
+      "id": 40,
+      "speaker": "expert",
+      "text": "There is no new tariff rate from this proclamation to add today. The directive is established policy; the eventual restrictions are uncertain. The concrete change is a move into negotiations covering automation equipment and parts. For industrial operators, that creates contingent exposure in both new projects and spare-parts sourcing.",
+      "topic_id": "story-2",
+      "pause_after_ms": 300,
+      "fileName": "040-expert.mp3"
+    },
+    {
+      "id": 41,
+      "speaker": "host",
+      "text": "While the United States negotiates import treatment, South Korea is targeting the ability of smaller manufacturers to adopt automation.",
+      "topic_id": "story-5",
+      "pause_after_ms": 700,
+      "fileName": "041-host.mp3"
+    },
+    {
+      "id": 42,
+      "speaker": "expert",
+      "text": "South Korea announced a strategy for more than five trillion won in smart-manufacturing support through 2030. Targets include digital transformation at thirty thousand smaller manufacturers, AI adoption at six thousand, and development of five hundred specialist technology suppliers. The support connects factory data, implementation and robotics.",
+      "topic_id": "story-5",
+      "pause_after_ms": 300,
+      "fileName": "042-expert.mp3"
+    },
+    {
+      "id": 43,
+      "speaker": "host",
+      "text": "How much of that is a committed wave of robot purchases?",
+      "topic_id": "story-5",
+      "pause_after_ms": 300,
+      "fileName": "043-host.mp3"
+    },
+    {
+      "id": 44,
+      "speaker": "expert",
+      "text": "The headline covers broad manufacturing modernization. More than one trillion won is included in the proposed 2027 budget, which still needs parliamentary review. The announced strategy builds an adoption pathway for smaller factories and a development base for domestic suppliers. Its business significance is potentially widening the customer base for automation beyond manufacturers with large internal engineering teams.",
+      "topic_id": "story-5",
+      "pause_after_ms": 700,
+      "fileName": "044-expert.mp3"
+    },
+    {
+      "id": 45,
+      "speaker": "expert",
+      "text": "Across the week, the strongest signals concern whole workflows: an operating distribution system, larger customer commitments and new ways to supply industrial capacity. Integration, field support and implementation skills connect those developments. One specific thing to watch is Walmart and Symbotic’s site acceptance milestones as the six-billion-dollar commitment moves toward operating capability.",
+      "topic_id": "closing",
+      "pause_after_ms": 300,
+      "fileName": "045-expert.mp3"
+    },
+    {
+      "id": 46,
+      "speaker": "host",
+      "text": "Thanks for listening to Physical AI Weekly. See you next Friday.",
+      "topic_id": "closing",
+      "pause_after_ms": 300,
+      "fileName": "046-host.mp3"
+    }
+  ]
+}
