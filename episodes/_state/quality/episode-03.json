@@ -1,0 +1,72 @@
+{
+  "episode_number": 3,
+  "title": "What It Takes to Scale",
+  "generated_at": "2026-11-10T15:15:45.693+01:00",
+  "research_diagnostics": {
+    "scan_calls": 3,
+    "scan_calls_parsed": 3,
+    "scan_searches": 54,
+    "raw_candidates": 36,
+    "longlist_count": 29,
+    "lanes_searched": [
+      "Humanoid and general-purpose robots doing real work in factories or warehouses",
+      "Industrial robot arms, collaborative robots and automation vendors",
+      "Warehouse, fulfilment and logistics automation",
+      "Mining, construction, ports, agriculture and energy automation",
+      "AI models and software for robots aimed at industrial tasks",
+      "Deployments and rollouts announced by companies that use the technology",
+      "Funding rounds, acquisitions, partnerships and joint ventures",
+      "Robot hardware, components and supply chain",
+      "Safety standards, certification, regulation and government programmes",
+      "China, Japan and South Korea",
+      "Europe",
+      "Research papers and open-source releases with near-term industrial relevance"
+    ],
+    "scan_parse_ok": true,
+    "deepen_searches": 25,
+    "deepen_status": "completed",
+    "text_fields_with_links_stripped": 0,
+    "final_story_count": 10
+  },
+  "audit": {
+    "status": "ok",
+    "enforcement": {
+      "link_checks_unavailable": false,
+      "dead_links_removed": [],
+      "stories_dropped": [],
+      "confidence_capped": [
+        "Zijin confirms driverless mine haulage as EACON reports a 60-truck electric fleet"
+      ]
+    },
+    "link_check_summary": {
+      "reachable": 20,
+      "blocked": 1,
+      "dead": 0,
+      "error": 0,
+      "unreachable": 1,
+      "non_canonical": 0
+    }
+  },
+  "lessons": {
+    "checked": 0,
+    "pass": 0,
+    "fail": 0,
+    "not_applicable": 0,
+    "not_checked": 0,
+    "results": [],
+    "parse_ok": true
+  },
+  "covered_story_ranks": [
+    1,
+    3,
+    6,
+    2,
+    5,
+    7,
+    8,
+    9,
+    4,
+    10
+  ],
+  "ai_disclosure_after_segment": 3
+}

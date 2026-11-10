@@ -179,6 +179,66 @@
       "url": "https://investors.gxo.com/news-releases/news-release-details/gxo-and-agility-robotics-expand-partnership-accelerate",
       "episode": 2,
       "week": "2026-10-30"
+    },
+    {
+      "title": "China prohibition puts ABB’s $5.375 billion robotics sale to SoftBank in doubt",
+      "url": "https://www.abb.com/global/en/news/140154/update-on-divestment-of-abb-robotics",
+      "episode": 3,
+      "week": "2026-11-10"
+    },
+    {
+      "title": "NVIDIA introduces GR00T 2 with five-demonstration robot-learning results",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "episode": 3,
+      "week": "2026-11-10"
+    },
+    {
+      "title": "Toyota creates a company-wide robotics organization to turn factory expertise into a business",
+      "url": "https://global.toyota/en/newsroom/corporate/44970123.html",
+      "episode": 3,
+      "week": "2026-11-10"
+    },
+    {
+      "title": "Agility completes public listing backed by approximately $465 million in gross capital",
+      "url": "https://www.sec.gov/Archives/edgar/data/2074973/000121390026116898/ea031120401ex99-2.htm",
+      "episode": 3,
+      "week": "2026-11-10"
+    },
+    {
+      "title": "Zijin confirms driverless mine haulage as EACON reports a 60-truck electric fleet",
+      "url": "https://www.zijinmining.com/news/news-detail-123013.htm",
+      "episode": 3,
+      "week": "2026-11-10"
+    },
+    {
+      "title": "Aptiv signs two-way factory deployment and robot-component agreements in China",
+      "url": "https://ir.aptiv.com/news/news-details/2026/Aptiv-Accelerates-Robotics-Expansion-With-Industry-Partners-2026-d-6_DOGBsW/default.aspx",
+      "episode": 3,
+      "week": "2026-11-10"
+    },
+    {
+      "title": "Kajima discloses FieldAI robot operations across more than ten construction sites",
+      "url": "https://www.fieldai.com/news/kajima-full-scale-deployment-of-robots-with-general-purpose-autonomy-software-on-construction-sites",
+      "episode": 3,
+      "week": "2026-11-10"
+    },
+    {
+      "title": "DHL moves AI orchestration into live warehouses while adaptive robotics remains in pilots",
+      "url": "https://www.dhl.com/us-en/home/press/press-archive/2026/dhl-supply-chain-doubles-down-on-digitalization-strategy-pilots-adaptive-robotics-and-ai-orchestration.html",
+      "episode": 3,
+      "week": "2026-11-10"
+    },
+    {
+      "title": "AutoStore agrees to buy Logiqs for up to €30 million to expand into pallet automation",
+      "url": "https://www.autostoresystem.com/investors/press-releases/autostore-to-acquire-logiqs-08944?hsLang=en",
+      "episode": 3,
+      "week": "2026-11-10"
+    },
+    {
+      "title": "Rockwell says OTTO mobile-robot business reached quarterly profitability",
+      "url": "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/company/about-us/ir/2026/Prepared-Remarks-Q4-FY26.pdf",
+      "episode": 3,
+      "week": "2026-11-10"
     }
   ]
 }
