@@ -14,6 +14,12 @@ WORK_DIR = os.path.join(EPISODES_DIR, "_work")
 FEED_FILES = ["podcast.xml", "feed.xml"]
 BASE_URL = "https://KuepperDaniel.github.io/physical-ai-weekly"
 
+# Jingles. Any format FFmpeg reads works; the first existing file of each name is used,
+# and a missing file is simply skipped. Replace the placeholders by dropping in new files.
+AUDIO_DIR = os.path.join(REPO_ROOT, "audio")
+JINGLE_EXTS = (".mp3", ".wav", ".m4a", ".aiff", ".flac")
+JINGLE_LOUDNESS = "loudnorm=I=-17:TP=-1.5:LRA=11"   # sits level with / just under the voices
+
 
 def find_pending_episodes():
     pending = []
@@ -46,20 +52,62 @@ def make_silence(duration_ms, workdir):
     return path
 
 
+def find_jingle(name):
+    for ext in JINGLE_EXTS:
+        path = os.path.join(AUDIO_DIR, name + ext)
+        if os.path.isfile(path):
+            return path
+    return None
+
+
+def prepare_jingle(name, workdir):
+    """Convert a jingle to the segments' format (24 kHz mono MP3) at voice loudness,
+    so the concat step can join it with the speech."""
+    src = find_jingle(name)
+    if not src:
+        print(f"  no {name} jingle in audio/, skipping it")
+        return None
+    out = os.path.join(workdir, f"jingle_{name}.mp3")
+    cmd = ["ffmpeg", "-y", "-i", src, "-af", JINGLE_LOUDNESS,
+           "-ar", "24000", "-ac", "1", "-c:a", "libmp3lame", "-q:a", "2", out]
+    subprocess.run(cmd, check=True, capture_output=True)
+    print(f"  using {os.path.relpath(src, REPO_ROOT)} as the {name} jingle")
+    return out
+
+
 def merge_segments(work_path, segments, default_pause_ms, output_path):
     with tempfile.TemporaryDirectory() as tmpdir:
         silence_cache = {}
+
+        def silence(ms):
+            if ms not in silence_cache:
+                silence_cache[ms] = make_silence(ms, tmpdir)
+            return silence_cache[ms]
+
         list_path = os.path.join(tmpdir, "concat_list.txt")
         ordered = sorted(segments, key=lambda s: s["id"])
+        intro, kickoff, sting = (prepare_jingle(n, tmpdir) for n in ("intro", "kickoff", "sting"))
+        # The kickoff jingle ("Let's go!") follows the cold open, which Module 2 labels 'cold-open'.
+        cold_open = next((i for i, s in enumerate(ordered) if s.get("topic_id") == "cold-open"), None)
+        if kickoff and cold_open is None:
+            print("  no 'cold-open' segment in this manifest, kickoff jingle skipped")
         with open(list_path, "w") as f:
+            def add(path):
+                f.write(f"file '{os.path.abspath(path)}'\n")
+            if intro:
+                add(intro)
+                add(silence(250))
             for i, seg in enumerate(ordered):
-                seg_path = os.path.join(work_path, seg["fileName"])
-                f.write(f"file '{os.path.abspath(seg_path)}'\n")
-                if i < len(ordered) - 1:
-                    pause_ms = seg.get("pause_after_ms") or default_pause_ms
-                    if pause_ms not in silence_cache:
-                        silence_cache[pause_ms] = make_silence(pause_ms, tmpdir)
-                    f.write(f"file '{os.path.abspath(silence_cache[pause_ms])}'\n")
+                add(os.path.join(work_path, seg["fileName"]))
+                if kickoff and i == cold_open:
+                    add(silence(200))
+                    add(kickoff)
+                    add(silence(120))
+                elif i < len(ordered) - 1:
+                    add(silence(seg.get("pause_after_ms") or default_pause_ms))
+            if sting:
+                add(silence(350))
+                add(sting)
         cmd = [
             "ffmpeg", "-y",
             "-f", "concat", "-safe", "0",
