@@ -4,11 +4,11 @@
  xmlns:content="http://purl.org/rss/1.0/modules/content/"
  xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-<title>Physical AI Weekly</title>
+<title>Industrial AI Weekly</title>
 <link>https://KuepperDaniel.github.io/physical-ai-weekly/</link>
-<description>A weekly executive briefing on the technologies, companies and real-world developments shaping Physical AI, robotics and embodied intelligence. Produced with AI: the voices of hosts Sarah and Daniel are AI-generated, and the research and scripts are written by AI from public sources.</description>
+<description>A weekly executive briefing on how AI and robotics are changing industrial operations: factories, warehouses, logistics and heavy industry. Produced with AI: the voices of hosts Sarah and Daniel are AI-generated, and the research and scripts are written by AI from public sources.</description>
 <language>en-us</language>
-<itunes:author>Physical AI Weekly</itunes:author>
+<itunes:author>Industrial AI Weekly</itunes:author>
 <itunes:explicit>false</itunes:explicit>
 <itunes:type>episodic</itunes:type>
 <itunes:category text="Technology"/>

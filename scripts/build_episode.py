@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds any pending Physical AI Weekly episodes from episodes/_work/ into
+"""Builds any pending Industrial AI Weekly episodes from episodes/_work/ into
 final episode MP3s and updates the RSS feed (podcast.xml / feed.xml)."""
 
 import json
