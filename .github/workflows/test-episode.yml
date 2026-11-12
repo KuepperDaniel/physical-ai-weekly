@@ -1,0 +1,109 @@
+name: Test Episode (not published)
+
+# Voices a dry-run script with the Realtime API and the real jingles, exactly like the episode build,
+# but publishes nothing: no commit, no feed change, nothing under episodes/. The result is a download
+# (the run's "Artifacts" box): test-episode.mp3, voicing_report.json and the manifest.
+#
+# Starts by itself when the n8n Dry Run (6t) commits tests/dry-runs/<stamp>/manifest.json,
+# or by hand: Actions > Test Episode (not published) > Run workflow (optionally naming a folder).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tests/dry-runs/**/manifest.json'
+  workflow_dispatch:
+    inputs:
+      folder:
+        description: 'Folder holding manifest.json (empty = newest under tests/dry-runs/)'
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+
+concurrency:
+  group: test-episode
+  cancel-in-progress: false
+
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: pip install websockets==15.0.1
+
+      - name: Pick the test folder
+        id: pick
+        env:
+          FOLDER_INPUT: ${{ inputs.folder }}
+        run: |
+          if [ -n "$FOLDER_INPUT" ]; then
+            FOLDER="${FOLDER_INPUT%/}"
+          else
+            FOLDER="$(ls -d tests/dry-runs/*/ 2>/dev/null | sort | tail -1)"
+            FOLDER="${FOLDER%/}"
+          fi
+          if ! printf '%s' "$FOLDER" | grep -Eq '^tests/[A-Za-z0-9._/-]+$' || [ ! -f "$FOLDER/manifest.json" ]; then
+            echo "No manifest.json found in '$FOLDER'"; exit 1
+          fi
+          echo "folder=$FOLDER" >> "$GITHUB_OUTPUT"
+          echo "name=test-episode-$(basename "$FOLDER")" >> "$GITHUB_OUTPUT"
+          echo "Test folder: $FOLDER"
+
+      - name: Voice the lines and merge with the jingles
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          FOLDER: ${{ steps.pick.outputs.folder }}
+        run: python3 scripts/voice_segments.py "$FOLDER" --merge test-episode.mp3
+
+      - name: Summary
+        if: always()
+        env:
+          FOLDER: ${{ steps.pick.outputs.folder }}
+        run: |
+          python3 - <<'PYEOF' >> "$GITHUB_STEP_SUMMARY"
+          import json, os, subprocess
+          folder = os.environ.get("FOLDER", "")
+          rep_path = os.path.join(folder, "voicing_report.json")
+          print("## Test episode (not published)\n")
+          print(f"Script: `{folder}/manifest.json`\n")
+          if os.path.isfile("test-episode.mp3"):
+              secs = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                           "test-episode.mp3"], capture_output=True, text=True).stdout.strip() or 0)
+              print(f"**Episode built: {int(secs // 60)}:{int(secs % 60):02d} min.** Download it under *Artifacts* below.\n")
+          else:
+              print("**No episode built.** See the log of the previous step.\n")
+          if os.path.isfile(rep_path):
+              r = json.load(open(rep_path, encoding="utf-8"))
+              print(f"{r['voiced']} lines with {r['model']}: {r['ok']} exact, {r['accepted_with_warning']} close, "
+                    f"{r['failed_or_drifted']} failed or drifted, {r['seconds_taken']} s\n")
+              print("| Line | Speaker | Result | Match | Takes |\n|---|---|---|---|---|")
+              for l in r["lines"]:
+                  match = f"{l['match']:.0%}" if "match" in l else "-"
+                  print(f"| {l['id']} | {l['speaker']} | {l['result']} | {match} | {len(l['takes'])} |")
+          PYEOF
+
+      - name: Upload test episode
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.pick.outputs.name || 'test-episode' }}
+          path: |
+            test-episode.mp3
+            ${{ steps.pick.outputs.folder }}/voicing_report.json
+            ${{ steps.pick.outputs.folder }}/manifest.json
+          if-no-files-found: warn
+          retention-days: 30

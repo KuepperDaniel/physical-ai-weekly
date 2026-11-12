@@ -8,6 +8,8 @@ import re
 import subprocess
 import tempfile
 
+from voice_segments import voice_missing_segments
+
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EPISODES_DIR = os.path.join(REPO_ROOT, "episodes")
 WORK_DIR = os.path.join(EPISODES_DIR, "_work")
@@ -185,6 +187,10 @@ def main():
         print(f"Building episode {padded}...")
         with open(manifest_path, "r", encoding="utf-8") as f:
             manifest = json.load(f)
+
+        # Since Nov 2026 n8n sends only the script lines; the voices are recorded here with the
+        # Realtime API (voice_segments.py). Segments that already have an audio file are left alone.
+        voice_missing_segments(work_path, manifest["segments"])
 
         final_mp3 = os.path.join(EPISODES_DIR, f"episode-{padded}.mp3")
         pause_ms = manifest.get("pauseMsDefault", 300)

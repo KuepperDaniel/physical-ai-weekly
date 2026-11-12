@@ -9,9 +9,15 @@ on:
 permissions:
   contents: write
 
+# Never build two episodes at the same time (both would push to main).
+concurrency:
+  group: build-episode
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,7 +32,14 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install Python packages
+        run: pip install websockets==15.0.1
+
       - name: Build pending episodes
+        # Voices the script lines with the Realtime API (scripts/voice_segments.py), then merges them
+        # with the jingles. The key is a repository secret: Settings > Secrets and variables > Actions.
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python3 scripts/build_episode.py
 
       - name: Commit results
