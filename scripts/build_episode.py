@@ -89,7 +89,7 @@ def merge_segments(work_path, segments, default_pause_ms, output_path):
         list_path = os.path.join(tmpdir, "concat_list.txt")
         ordered = sorted(segments, key=lambda s: s["id"])
         intro, kickoff, sting = (prepare_jingle(n, tmpdir) for n in ("intro", "kickoff", "sting"))
-        # The kickoff jingle ("Let's go!") follows the cold open, which Module 2 labels 'cold-open'.
+        # The kickoff jingle (instrumental opening) follows the cold open, which Module 2 labels 'cold-open'.
         cold_open = next((i for i, s in enumerate(ordered) if s.get("topic_id") == "cold-open"), None)
         if kickoff and cold_open is None:
             print("  no 'cold-open' segment in this manifest, kickoff jingle skipped")
