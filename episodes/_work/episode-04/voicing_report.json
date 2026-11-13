@@ -1,0 +1,465 @@
+{
+  "model": "gpt-realtime-2.1-mini",
+  "voiced": 28,
+  "ok": 28,
+  "accepted_with_warning": 0,
+  "failed_or_drifted": 0,
+  "accept_match": 0.92,
+  "floor_match": 0.8,
+  "seconds_taken": 33.9,
+  "lines": [
+    {
+      "id": 1,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "001-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "ASICS reports recovering misplaced inventory about 60 percent faster using warehouse drones. This week, we're separating operating results from the promises of scale."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 10.05
+    },
+    {
+      "id": 2,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "002-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "Welcome to Industrial AI Weekly. I'm Sarah. Daniel, there's some real warehouse evidence to start with."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 6.6
+    },
+    {
+      "id": 3,
+      "speaker": "expert",
+      "voice": "cedar",
+      "file": "003-expert.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "Hi everyone, I'm Daniel. And it reaches beyond counting boxes."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 4.7
+    },
+    {
+      "id": 4,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "004-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "Before we start, a quick note: to spare you our German accents, the voices you're hearing are AI-generated."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 6.7
+    },
+    {
+      "id": 5,
+      "speaker": "expert",
+      "voice": "cedar",
+      "file": "005-expert.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "Let's go!"
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 1.1
+    },
+    {
+      "id": 6,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "006-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "ASICS says it's redirected about 200 counting hours a month. What's happening inside that warehouse?"
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 6.3
+    },
+    {
+      "id": 7,
+      "speaker": "expert",
+      "voice": "cedar",
+      "file": "007-expert.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "At its Mississippi distribution centre, Corvus One drones scan barcodes and count boxes. Two storage areas now get monthly counts, up from twice yearly. Staff still review images and resolve discrepancies. Over three months, ASICS reports finding 26 misplaced cases containing more than 200 pairs of footwear."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 18.85
+    },
+    {
+      "id": 8,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "008-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "So the benefit reaches inventory availability. Are those 200 hours a payroll saving?"
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 6.0
+    },
+    {
+      "id": 9,
+      "speaker": "expert",
+      "voice": "cedar",
+      "file": "009-expert.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "They're reassigned hours. Named customer managers confirm this operating deployment, although the figures aren't independently audited. The new evidence is faster recovery and more frequent counting at one site. For warehouse leaders, that broadens automation's value beyond counting labour to finding stock that operations couldn't locate."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 18.4
+    },
+    {
+      "id": 10,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "010-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 0.882,
+          "transcript": "From finding stock to making parts: Path Robotics has raised three hundred million dollars to expand adaptive manufacturing."
+        },
+        {
+          "attempt": 2,
+          "match": 1.0,
+          "transcript": "From finding stock to making parts: Path Robotics has raised $300 million to expand adaptive manufacturing."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 7.45
+    },
+    {
+      "id": 11,
+      "speaker": "expert",
+      "voice": "cedar",
+      "file": "011-expert.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 0.978,
+          "transcript": "Its starting point is welding that adapts to individual parts, reducing repeated programming. That matters in shipbuilding and heavy equipment, where fabrication varies. Investor Georgian describes dozens of operating welding cells across the United States, Canada and Mexico. The funding supports expansion into additional manufacturing applications."
+        }
+      ],
+      "match": 0.978,
+      "result": "ok",
+      "seconds": 21.15
+    },
+    {
+      "id": 12,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "012-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "Does the operating footprint tell us anything about cost?"
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 2.9
+    },
+    {
+      "id": 13,
+      "speaker": "expert",
+      "voice": "cedar",
+      "file": "013-expert.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "Georgian says one unnamed customer reported roughly 40 percent lower cost per weld than manual labour. That's an investor-reported example from an operating customer, without independent verification. The confirmed development is $300 million backing expansion beyond welding. For high-mix manufacturers, specialised process automation is attracting substantial capital."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 22.8
+    },
+    {
+      "id": 14,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "014-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "Specialisation's one route. GXO and Apptronik are exploring a broader warehouse role for up to 1,000 Apollo humanoids."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 8.15
+    },
+    {
+      "id": 15,
+      "speaker": "expert",
+      "voice": "cedar",
+      "file": "015-expert.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "They've signed a letter of intent covering expanded trials and a service framework. Trials beginning in 2027 will cover picking, moving totes and cases, packing and sorting. Initial North American deployment is envisaged for late 2027, with that potential thousand-robot rollout spread over four years."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 18.0
+    },
+    {
+      "id": 16,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "016-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "How much commitment does that thousand actually represent?"
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 3.0
+    },
+    {
+      "id": 17,
+      "speaker": "expert",
+      "voice": "cedar",
+      "file": "017-expert.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "GXO confirms the agreement, but it's conditional on performance, safety and operational milestones—not a firm order. What's changed is a quantified route from trials toward service procurement. For warehouse operators, the commercial signal is milestone-based access to robots, with operating acceptance determining whether scale follows."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 20.15
+    },
+    {
+      "id": 18,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "018-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "Acceptance also runs through testing and certification. Beijing's new robotics plan puts those alongside manufacturing expansion."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 8.0
+    },
+    {
+      "id": 19,
+      "speaker": "expert",
+      "voice": "cedar",
+      "file": "019-expert.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "The programme runs through 2028. It targets at least 20 industrial reference applications and annual manufacturing capacity of 200,000 robots in Beijing. It also calls for third-party testing platforms and identity records tracking robots from development through recycling."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 17.25
+    },
+    {
+      "id": 20,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "020-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "What should a factory operator take from that combination?"
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 3.4
+    },
+    {
+      "id": 21,
+      "speaker": "expert",
+      "voice": "cedar",
+      "file": "021-expert.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "The government document establishes the programme; those capacity and application figures are targets. Application evaluations are intended to include efficiency and return on investment. Beijing's new move links supplier development with shared assurance infrastructure. If implemented, that could shape both the supplier pool and qualification processes facing industrial buyers."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 21.85
+    },
+    {
+      "id": 22,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "022-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "There's another route to a wider supplier pool: software others can adapt. Runway has made its robot model publicly downloadable."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 8.8
+    },
+    {
+      "id": 23,
+      "speaker": "expert",
+      "voice": "cedar",
+      "file": "023-expert.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "Engineering teams can now download and modify it for commercial use. Previously, access centred on a partner programme. The software connects predictions of what a robot will see with actions for its arms. That gives automation teams more scope to customise locally."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 15.05
+    },
+    {
+      "id": 24,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "024-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "Does downloadable software make factory deployment easier?"
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 4.0
+    },
+    {
+      "id": 25,
+      "speaker": "expert",
+      "voice": "cedar",
+      "file": "025-expert.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "It removes access restrictions; integration, computing and safety engineering still need work. The release is verifiable, while the published simulated results don't establish factory performance. Runway's concrete advance is commercially usable software that engineers can adapt themselves. That could widen integrator choice and reduce dependence on proprietary hosted access during experimentation."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 22.7
+    },
+    {
+      "id": 26,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "026-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "Across these stories, scale takes several forms: operating gains, expansion funding, conditional fleets and accessible software."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 8.35
+    },
+    {
+      "id": 27,
+      "speaker": "expert",
+      "voice": "cedar",
+      "file": "027-expert.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "The strongest evidence here connects automation to a specific operating task. Watch whether GXO's letter of intent becomes binding service terms—that's a concrete next step toward turning a fleet ambition into an operating commitment."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 13.7
+    },
+    {
+      "id": 28,
+      "speaker": "host",
+      "voice": "marin",
+      "file": "028-host.mp3",
+      "takes": [
+        {
+          "attempt": 1,
+          "match": 1.0,
+          "transcript": "Thanks for listening to Industrial AI Weekly. See you next Friday."
+        }
+      ],
+      "match": 1.0,
+      "result": "ok",
+      "seconds": 3.4
+    }
+  ]
+}
