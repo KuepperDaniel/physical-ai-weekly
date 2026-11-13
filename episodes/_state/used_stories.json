@@ -239,6 +239,36 @@
       "url": "https://www.rockwellautomation.com/content/dam/rockwell-automation/documents/pdf/company/about-us/ir/2026/Prepared-Remarks-Q4-FY26.pdf",
       "episode": 3,
       "week": "2026-11-10"
+    },
+    {
+      "title": "ASICS discloses faster inventory recovery with autonomous warehouse drones",
+      "url": null,
+      "episode": 4,
+      "week": "2026-11-13"
+    },
+    {
+      "title": "Path Robotics raises $300 million to expand adaptive welding into broader manufacturing",
+      "url": "https://www.path-robotics.com/news/path-robotics-announces-300-million-series-e-led-by-georgian",
+      "episode": 4,
+      "week": "2026-11-13"
+    },
+    {
+      "title": "GXO and Apptronik outline conditional deployment of up to 1,000 Apollo humanoids",
+      "url": "https://investors.gxo.com/news-releases/news-release-details/gxo-and-apptronik-expand-partnership-scale-humanoid-deployment",
+      "episode": 4,
+      "week": "2026-11-13"
+    },
+    {
+      "title": "Beijing adopts robot-industry plan linking industrial applications, manufacturing and safety assurance",
+      "url": "https://www.beijing.gov.cn/zhengce/gfxwj/sj/202611/t20261111_4942067.html",
+      "episode": 4,
+      "week": "2026-11-13"
+    },
+    {
+      "title": "Runway releases Praxis-1 robot-model weights and commercial-use code",
+      "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+      "episode": 4,
+      "week": "2026-11-13"
     }
   ]
 }

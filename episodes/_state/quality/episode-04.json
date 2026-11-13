@@ -1,0 +1,125 @@
+{
+  "episode_number": 4,
+  "title": "Count the Results, Then the Robots",
+  "generated_at": "2026-11-13T20:53:27.489+01:00",
+  "research_diagnostics": {
+    "scan_calls": 3,
+    "scan_calls_parsed": 3,
+    "scan_searches": 49,
+    "raw_candidates": 36,
+    "longlist_count": 29,
+    "lanes_searched": [
+      "Humanoid and general-purpose robots doing real work in factories or warehouses",
+      "Industrial robot arms, collaborative robots and automation vendors",
+      "Warehouse, fulfilment and logistics automation",
+      "Mining, construction, ports, agriculture and energy automation",
+      "AI models and software for robots aimed at industrial tasks",
+      "Deployments and rollouts announced by companies that use the technology",
+      "Funding rounds, acquisitions, partnerships and joint ventures",
+      "Robot hardware, components and supply chain",
+      "Safety standards, certification, regulation and government programmes",
+      "China, Japan and South Korea",
+      "Europe",
+      "Research papers and open-source releases with near-term industrial relevance"
+    ],
+    "scan_parse_ok": true,
+    "deepen_searches": 13,
+    "deepen_status": "completed",
+    "text_fields_with_links_stripped": 0,
+    "final_story_count": 8
+  },
+  "audit": {
+    "status": "ok",
+    "enforcement": {
+      "link_checks_unavailable": false,
+      "dead_links_removed": [],
+      "stories_dropped": [],
+      "confidence_capped": [],
+      "story_selection": {
+        "status": "ok",
+        "max_stories": 7,
+        "considered": 8,
+        "kept_count": 5,
+        "kept": [
+          {
+            "rank": 1,
+            "research_rank": 8,
+            "title": "ASICS discloses faster inventory recovery with autonomous warehouse drones",
+            "story_of_the_week": true,
+            "reason": "ASICS provides the week's most useful buying evidence by showing how inventory automation affects recovery time and counting workload, while leaving costs and payback open."
+          },
+          {
+            "rank": 2,
+            "research_rank": 1,
+            "title": "Path Robotics raises $300 million to expand adaptive welding into broader manufacturing",
+            "story_of_the_week": false,
+            "reason": "The $300 million financing is a substantial bet on automating variable fabrication work, although the claimed customer economics remain unverified."
+          },
+          {
+            "rank": 3,
+            "research_rank": 4,
+            "title": "GXO and Apptronik outline conditional deployment of up to 1,000 Apollo humanoids",
+            "story_of_the_week": false,
+            "reason": "GXO's conditional framework gives logistics buyers a concrete procurement development to watch, provided the proposed 1,000 robots are not presented as firm orders."
+          },
+          {
+            "rank": 4,
+            "research_rank": 6,
+            "title": "Beijing adopts robot-industry plan linking industrial applications, manufacturing and safety assurance",
+            "story_of_the_week": false,
+            "reason": "Beijing's adopted plan could shape a major robotics supplier cluster through coordinated applications, manufacturing and assurance work, though its targets are not funded delivery commitments."
+          },
+          {
+            "rank": 5,
+            "research_rank": 5,
+            "title": "Runway releases Praxis-1 robot-model weights and commercial-use code",
+            "story_of_the_week": false,
+            "reason": "Downloadable weights and commercial-use permission materially change access and supplier options for automation teams, without establishing production readiness."
+          }
+        ],
+        "cut": [
+          {
+            "research_rank": 2,
+            "title": "Google reports 96% automotive-kitting success with Gemini Robotics 2.5 at Mercedes-Benz",
+            "reason": "The vendor-reported kitting result lacks enough trial detail to change a buying decision and overlaps with the stronger customer-confirmed Apptronik story."
+          },
+          {
+            "research_rank": 3,
+            "title": "Agile Robots raises $500 million for US expansion and manufacturing capacity",
+            "reason": "Path wins the single funding slot with a clearer industrial application, while Agile's broad expansion plans lack investment allocations or construction schedules."
+          },
+          {
+            "research_rank": 7,
+            "title": "NTT reports fewer loading failures using a physics-informed world model",
+            "reason": "The controlled loading experiment offers less immediate decision value than this week's customer evidence and capital commitments, with airport implementation still unspecified."
+          }
+        ]
+      }
+    },
+    "link_check_summary": {
+      "reachable": 13,
+      "blocked": 1,
+      "dead": 0,
+      "error": 0,
+      "unreachable": 0,
+      "non_canonical": 0
+    }
+  },
+  "lessons": {
+    "checked": 0,
+    "pass": 0,
+    "fail": 0,
+    "not_applicable": 0,
+    "not_checked": 0,
+    "results": [],
+    "parse_ok": true
+  },
+  "covered_story_ranks": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "ai_disclosure_after_segment": 3
+}
